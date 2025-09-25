@@ -6,7 +6,9 @@ class Cat {
     private int $age;
     private string $color;
 
-    
+    public function __construct(string $name) {
+        $this->name = $name;
+    }
 
     public function setName(string $name): void {
         $this->name = $name;
