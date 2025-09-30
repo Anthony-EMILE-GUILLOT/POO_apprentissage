@@ -1,6 +1,6 @@
 <?php
 
-class Cat {
+class Cat extends Animal {
     
     private string $name;
     private int $age;

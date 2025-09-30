@@ -1,5 +1,6 @@
 <?php
 
+include 'animal.php';
 include 'cat.php';
 
 $myCat = new Cat();
