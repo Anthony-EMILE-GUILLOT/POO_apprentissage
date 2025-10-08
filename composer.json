@@ -1,0 +1,15 @@
+{
+    "name": "aemil/poo_apprentissage",
+    "autoload": {
+        "psr-4": {
+            "Poo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anthony-EMILE-GUILLOT",
+            "email": "a.emileguillot@gmail.com"
+        }
+    ],
+    "require": {}
+}

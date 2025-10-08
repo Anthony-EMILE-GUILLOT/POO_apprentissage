@@ -1,8 +1,8 @@
 <?php
 
-include 'animal.php';
-include 'cat.php';
-include 'dog.php';
+require __DIR__ . '/vendor/autoload.php';
+
+use Poo\spa\Cat;
 
 $myCat = new Cat("Plume" , 3, "Gris");
 $myCat->setName("Plume");
