@@ -3,6 +3,7 @@
 require __DIR__ . '/vendor/autoload.php';
 
 use Poo\spa\Cat;
+use Poo\spa\Dog;
 
 $myCat = new Cat("Plume" , 3, "Gris");
 $myCat->setName("Plume");
